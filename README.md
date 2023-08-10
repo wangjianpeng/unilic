@@ -10,7 +10,8 @@ Verified to be working with:
 1. openssl req -config openssl.conf -newkey rsa:2048 -keyout private.key -out request.csr
 2. openssl x509 -req -days 365 -in request.csr -signkey private.key -out certificate.crt
 3. openssl x509 -in certificate.crt -outform der -out certificate.der
-4.  ls -l certificate.der      
+4.  ls -l certificate.der
+5.  openssl x509 -in certificate.crt -pubkey -noout > mypub.key
 
 Process:
 
