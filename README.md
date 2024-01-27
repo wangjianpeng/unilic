@@ -5,6 +5,9 @@ Verified to be working with:
     
 * 2021.3.23 OSX
 * 2022.2.16 Win
+#### 2024/1/27
+
+不要再去用这个方法破解，没有用.
 
 #### 在ubuntu中实现步骤
 1. openssl req -config openssl.conf -newkey rsa:2048 -keyout private.key -out request.csr
